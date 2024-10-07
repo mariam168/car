@@ -1,0 +1,284 @@
+
+.dashboard{
+    display: grid;
+    grid-template-columns:5% 20% 55% 20%;
+    
+}
+.nav{
+    background-color: var(--color3);
+    height: 50px;
+}
+.nav .logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 410px;
+    margin-top: 15px;
+    border-radius: 50%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    border: 1px solid var(--color3);
+    box-shadow: 0 0 3px 2px var(--color3);
+    transition: all 50ms ease;
+    -webkit-transition: all 50ms ease;
+    -moz-transition: all 50ms ease;
+    -ms-transition: all 50ms ease;
+    -o-transition: all 50ms ease;
+}
+.nav .logo:hover{
+    box-shadow: 0 0 3px 2px var(--color1);
+    cursor: pointer;
+ 
+}
+.nav .signIn{
+   margin-left: 170px;
+}
+.nav button{
+    padding: 5px 20px;
+    position: relative;
+    top: -35px;
+    margin:0px 5px ;
+    background-color: var(--color5);
+    border: 1px solid var(--color3);
+    color: var(--color3);
+    font-weight: bold;
+    border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    transition:all 200ms ease ;
+    -webkit-transition:all 200ms ease ;
+    -moz-transition:all 200ms ease ;
+    -ms-transition:all 200ms ease ;
+    -o-transition:all 200ms ease ;
+} 
+.nav button:hover{
+    background-color: var(--color3);
+    color: var(--color1);
+    border-color: var(--color1);
+    cursor: pointer;
+} 
+.sideNav{
+    background-color: var(--color3);
+    width: 60px;
+    height: 92vh;
+    overflow: hidden;
+    
+   
+}
+.sideNavContent{
+    margin-top: 80px;
+   margin-left: 18px;
+   
+
+}
+.sideNavContent div{
+    width:65px;
+    height: 45px;
+    border-radius: 35%;
+    border: 3px solid var(--color3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -10px;
+    -webkit-border-radius: 35%;
+    -moz-border-radius: 35%;
+    -ms-border-radius: 35%;
+    -o-border-radius: 35%;
+    transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    padding: 5px 0px;
+}
+.sideNavContent div:hover{
+    background-color: black;
+    border-color: var(--color1);
+    cursor: pointer;
+    
+}
+.sideNavContent div img{
+    width: 25px;
+    margin-left: -20px;
+    margin-top: -2px;
+}  
+
+.numberOfParticipants{
+    background-color: var(--color3);
+    width: 250px;
+    height: 160px;
+    margin-top: 40px;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    box-shadow: 0 0 3px 3px rgb(36, 35, 35);
+    transition: all 1000ms ;
+    -webkit-transition: all 1000ms ;
+    -moz-transition: all 1000ms ;
+    -ms-transition: all 1000ms ;
+    -o-transition: all 1000ms ;
+}
+
+.numberOfParticipants  h3{
+    position: relative;
+    top: -20px;
+    margin-left: 5px;
+    color:  var(--color5);
+}
+.numberOfParticipants  .totalParticipantsChart{
+   margin-top: -15px;
+   
+}
+
+.participate{
+   background-color: var(--color3);
+  
+   border-radius:10px ;
+   -webkit-border-radius:10px ;
+   -moz-border-radius:10px ;
+   -ms-border-radius:10px ;
+   -o-border-radius:10px ;
+   height: 50vh;
+   position: relative;
+   left: 5px;
+   top:20px;
+   width: 250px;
+   overflow: hidden;
+   padding: 5px;
+   box-shadow: 0 0 3px 3px rgb(36, 35, 35);
+   margin-top: 1px;
+}
+.participate h3{
+    color: var(--color5);
+    margin-left: 5px;
+}
+.participate li{
+    list-style: none;
+    position: relative;
+
+    left: 150px;
+    margin-bottom: -45px;
+   
+   
+}
+
+.participate img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: -30px;
+}
+
+.participate p ,.participate h4{
+    margin-left: 50px;
+    position: relative;
+    top:-34px;
+    margin-bottom: -20px;
+    color: var(--color5) ;
+}
+.participate h4{
+    color: var(--color4);
+}
+
+
+.middle h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+}
+.middle .overallSales{
+    background-color:var(--color3);
+    width: 680px;
+    height: 380px;
+    display: flex;
+    margin-left: 16px;
+    margin-top: 45px;
+    border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    transition: all 10000000s ease-in;
+    -webkit-transition: all 10000000s ease-in;
+    -moz-transition: all 10000000s ease-in;
+    -ms-transition: all 10000000s ease-in;
+    -o-transition: all 10000000s ease-in;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 3px 3px rgb(36, 35, 35);
+}
+.middle .overallSales h3{
+    color:var(--color3) ;
+    margin-left: 50px;
+}
+.middle .incomeOutcomeChart{
+    width: 650px;
+    margin-left: 20px;
+    
+    
+}
+
+.left .totalSales h3{
+    text-align: center;
+   color: var(--color5);
+   position: relative;
+   top:10px;
+}
+
+.left .totalSales{
+    background-color: rgb(12, 12, 12);
+    height: 180px;
+    margin-top: 35px;
+    box-shadow: 0 0 3px 3px rgb(36, 35, 35);
+    margin-left: -25px;
+    border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    width: 280px;
+}
+.left .totalSales .salesDistributionChart{
+   position: relative;
+   top: -30px;
+   left: 40px;
+
+}
+.years{
+    background-color: var(--color3);
+    width: 280px;
+    height: 150px;
+    margin-left: -20px;
+    margin-top: -20px;
+    box-shadow: 0 0 3px 3px rgb(36, 35, 35);
+    border-radius: 10px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+}
+.total{
+    background-color: var(--color3);
+    width: 280px;
+    height: 150px;
+    box-shadow: 0 0 3px 3px rgb(36, 35, 35);
+    border-radius: 10px;
+    margin-left: -20px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    margin-top: -15px;
+}

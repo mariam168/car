@@ -1,0 +1,192 @@
+.car{
+    background-color: rgb(18, 2, 32);
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+aside{
+    background-color: rgba(62, 9, 112, 0.849);
+    width: 80px;
+    margin-left: 20px;
+    
+    height: 90vh;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: relative;
+    top:40px;
+}
+aside ul{
+    list-style: none;
+    position: relative;
+    top:100px;
+}
+
+aside ul li img{
+   width: 30px;
+   height: 30px;
+   padding: 15px 0px;
+   margin-left: -15px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    
+}
+nav h1{
+    color: white;
+    font-size: 30px;
+
+}
+nav input{
+    background-color: rgba(62, 9, 112, 0.849);
+    width: 400px;
+    margin-left: 50px;
+    height: 50px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-color:rgba(62, 9, 112, 0.849) ;
+    margin-top: 25px;
+    box-shadow: 0px 0px 3px 2px rgb(105, 19, 185);
+}
+nav img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+nav button{
+    background-color:rgba(62, 9, 112, 0.849) ;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+nav button:hover{
+    background-color:rgb(18, 2, 32);
+    border:2px solid rgba(62, 9, 112, 0.849);
+    color:rgba(62, 9, 112, 0.849);
+}
+.carton{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap:nowrap;
+    height: 200px;
+    margin-top: 10px;
+    
+}
+
+.carton img{
+    width: 100px;
+    height: 150px;
+    transform: all 10ms ease;
+    -webkit-transform: all 10ms ease;
+    -moz-transform: all 10ms ease;
+    -ms-transform: all 10ms ease;
+    -o-transform: all 10ms ease;
+}
+.canvas1{
+    width: 250px;
+    height: 175px;
+    background-color:rgba(62, 9, 112, 0.849) ;
+    display: flex;
+    justify-content: center;
+}
+.cartons{
+    display: flex;
+    flex-direction: row;
+    
+}
+.cartons div{
+    height: 200px;
+    width: 150px;
+    background-color:rgba(62, 9, 112, 0.849) ;
+    margin: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 500ms ease;
+    -webkit-transition:;
+    -moz-transition:;
+    -ms-transition:;
+    -o-transition:;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -10px;
+    
+}
+.cartons div img{
+    margin-left: 20px;
+}
+.cartons h5{
+    text-align: center;
+    color: white;
+}
+.cartons div:hover{
+    background-color: rgb(105, 19, 185);
+    
+}
+.carton img:hover{
+    margin-top: -30px;
+}
+
+.down{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    
+}
+.analytics{
+    width: 650px;
+    height: 150px;
+    background-color:rgba(62, 9, 112, 0.849) ;
+    padding: 0px 50px;
+    
+}
+
+.down .sales{
+    background-color: rgba(62, 9, 112, 0.849) ;
+   
+    margin-left: 30px;
+}
+.activity {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.activity span{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+   margin: 0px 10px;
+   box-shadow: 0px 0px 5px 2px black;
+   
+}
+.canvas3{
+    width: 400px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+}

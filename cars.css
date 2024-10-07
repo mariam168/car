@@ -1,0 +1,148 @@
+.nav{
+    position: sticky;
+    top:0px;
+    z-index: 999;
+}
+.mainContent .wallpaper img{
+    width:850px ;
+    height: 230px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.mainContent .wallpaper .search{
+    background-color: var(--color3);
+    width: 600px;
+    height: 40px;
+    position: relative;
+    left: 180px;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.mainContent .wallpaper .search:hover {
+    box-shadow: 0px 0px 5px 3px var(--color1);
+}
+.cars .carsContent{
+    margin-top: -55px;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.cars .carsContent .information{
+   background-color: var(--color3);
+   height: 100vh;
+   margin-left: 70px;
+   width: 200px;
+   margin-top: 30px;
+   border-radius: 20px ;
+   -webkit-border-radius: 20px ;
+   -moz-border-radius: 20px ;
+   -ms-border-radius: 20px ;
+   -o-border-radius: 20px ;
+   
+}
+.cars .carsContent .informationContent{
+    margin-left: 50px;
+    color: var(--color5);
+    font-size: 12px;
+}
+.cars .carsContent div{
+    margin-left: -90px;
+}
+.cars .carsContent .carContent{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: -30px;
+   
+}
+.cars .carsContent div .carContent {
+     
+     width: 600px;
+     height: 170px;
+     border-radius: 10px;
+     -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+     -ms-border-radius: 10px;
+     -o-border-radius: 10px;
+     margin:5px 10px;
+     text-align: center;
+    
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     margin-left: 200px;
+     
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     color: white;
+     align-items: center;
+}
+.cars .carsContent div .carContent img{
+    width: 220px;
+    margin-top: 30px;
+    background-color: var(--color3);
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
+}
+
+
+.cars .carsContent .carContent span{
+   margin-left: -100px;
+   margin-top: 3px;
+}
+.cars .carsContent .carContent span p{
+    font-size: 20px;
+   
+}
+.cars .carsContent .carContent h1{
+    margin-left: -55px;
+    font-size: 15px;
+    
+}
+.cars .carsContent div .carContent span .viewDetails{
+    background-color:var(--color1);
+    padding: 0px 7px;
+    margin-top: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    left: 100px;
+}
+.cars .carsContent div .carContent button{
+    height: 40px;
+    width: 80px;
+    margin-top: -40px;
+    background-color: var(--color5);
+    border-color: transparent ;
+    color: black;
+    font-weight: bolder;
+   position: relative;
+   left: -80px;
+    
+}
+.cars .carsContent div .carContent button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.line{
+    color: var(--color3);
+    margin-left: 200px;
+    font-size: 15px;
+    font-weight: bolder;
+}
